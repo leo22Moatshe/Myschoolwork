@@ -1,0 +1,39 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+   border: 5px blue solid;
+   height: fit-content;
+  }
+  
+  .keyboard button {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #ffb13cfe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+  
+  }
+  
+  .keyboard button:hover {
+    background-color: #0056b3;
+    border: 20PX;
+    box-sizing: 10px;
+  
+    
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+  h1{
+    color: #fff;
+  }
+label{
+  color: #fff;
+}  

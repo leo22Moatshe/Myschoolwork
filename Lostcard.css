@@ -1,0 +1,150 @@
+/* LostCard.css */
+body{
+  background-image: linear-gradient(to right, #cd2706 0%, #3a02bd 100%);
+  
+}
+
+ .LostCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    padding: 5rem;
+;
+} 
+  .DataTable {
+    width: 60%;
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 1rem;
+    border: 4px rgba(43, 18, 18, 0.638) solid;
+  
+   
+    } 
+  
+#cell-2-1, #cell-1-1{
+  font-size: larg;
+  color: rgb(129, 134, 35);
+
+}
+
+
+.sc-dltHI gdkAMt{
+  color: rgb(24, 249, 99);
+  
+}
+
+  columns,data{
+    padding: 8px;
+    border: 1px solid #223096; 
+    text-align: left;
+    font-size: larger;
+  }
+   
+   th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+  }
+   
+  .MAIN {
+    background-image: linear-gradient(to right, #b40aed 0%, #0408ef 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color:#f61702;
+    display: block;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+    position: absolute;
+    right: 10rem;
+    top:35rem;
+    left: 62rem;
+    height: 10rem;
+   font-size: 34px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   position: absolute;
+   height: 100px;
+   width: 500px; 
+   border-top-right-radius:10px ;
+   border-bottom-right-radius: 10px;
+  }
+  .MAIN:hover {
+
+    font-size: 4rem;
+    
+  }
+  .MAIN .next {
+    align-items: center;
+    background: #0e0e10 ;
+    border-radius: 50px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: #faf9fc;
+
+  }
+  .MAIN:hover .next {
+    background: transparent;
+  }
+  .btn {
+    background-image: linear-gradient(to right, #cd2706 0%, #3a02bd 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+    position: absolute;
+    right: 10rem;
+    top:35rem;
+    right : 62rem;
+    height: 10rem;
+   font-size: 34px;
+   margin: 20px 9px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   position: absolute;
+   height: 100px;
+   width: 500px; 
+   border-top-left-radius:10px ;
+   border-bottom-left-radius: 10px;
+  }
+  .btn:hover {
+    color: #fff;
+  }
+  .btn-1 {
+    align-items: center;
+    background: #0e0e10 ;
+    border-radius: 40px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: #fff;
+  }
+
+  .btn:hover .btn-1 {
+    background: transparent;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  button{
+    color: #faf9fc;
+  }

@@ -1,0 +1,361 @@
+/* MainMenu.css */
+
+/* Common styles for all screen sizes */
+.MainMenu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background overlay */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Video background styles */
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Rest of your styles here */
+
+/* Style adjustments for your content */
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Additional styles for your content elements (adjust as needed) */
+
+/* Remove the height and width of the video tag, as it should be controlled by CSS */
+.video-bg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure that the video is centered within the container */
+.LOGO {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  top:10px;
+  left: 1%;
+}
+
+/* Adjust the styles for the rest of your content elements as needed */
+
+      .LOGO {
+        font-size: 4rem; /* Adjust the font size as needed */
+        line-height: 3rem; /* Adjust the line height as needed */
+        color: #09d331e4;
+      
+      }
+      .FAmount {
+        background-image: linear-gradient(to right, #1b048c 0%, #ca0101 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color:#0aea15;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:15rem;
+        left: 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 4px 2px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-right-radius:10px ;
+       border-bottom-right-radius: 10px;
+      }
+      .FAmount:hover {
+        color: #fff;
+      }
+      .FAmount:hover .Favourite {
+        background: transparent;
+      }
+      .FAmount .Favourite {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 50px;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+      .BAmount{
+        background-image: linear-gradient(to right, #e70a18 0%, #040db4 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color: #05e16c;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:15rem;
+        right : 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 1px 9px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+      }
+      .BAmount:hover {
+        color: #fff;
+      }
+      .BAmount:hover .amount {
+        background: transparent;
+      }
+      .BAmount .amount {
+        align-items: center;
+      background: #0e0e10 ;
+      border-radius: 40px;
+      border-top-left-radius:10px ;
+      border-bottom-left-radius: 10px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background 0.5s ease;
+      width: 100%;
+      }
+      .CAmount {
+        background-image: linear-gradient(to right, #950516 0%, #1106e8 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color: #59e40e;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:25rem;
+        right : 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 20px 9px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+      }
+      .CAmount:hover {
+        color: #fff;
+      }
+      .Amount3 {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 40px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+   
+      .CAmount:hover .Amount3 {
+        background: transparent;
+      }
+      .Amount {
+        background-image: linear-gradient(to right, #14036a 0%, #a91104 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color:#0aea15;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:25rem;
+        left: 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 4px 2px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-right-radius:10px ;
+       border-bottom-right-radius: 10px;
+      }
+      .Amount:hover {
+        color: #fff;
+      }
+      .Amount:hover .AMount-A {
+        background: transparent;
+      }
+      .Amount .AMount-A {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 50px;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+
+      .MORE {
+        background-image: linear-gradient(to right, #060271 0%, #7a1103 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color:#0aea15;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:35rem;
+        left: 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 4px 2px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-right-radius:10px ;
+       border-bottom-right-radius: 10px;
+      }
+      .MORE:hover {
+        color: #fff;
+      }
+      .MORE:hover .OPTIONS {
+        background: transparent;
+      }
+      .MORE .OPTIONS{
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 50px;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+      .CAncel {
+        background-image: linear-gradient(to right, #cd2706 0%, #3a02bd 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color: #59e40e;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:35rem;
+        right : 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 20px 9px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+      }
+      .CAncel:hover {
+        color: #fff;
+      }
+      .CAncel-1 {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 40px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+   
+      .CAncel:hover .CAncel-1 {
+        background: transparent;
+      }
+    
+.Account {
+  position: absolute;
+  text-align: center;
+  bottom: 37rem;  
+  
+  
+  color: rgb(16, 191, 34);
+  padding: 10px;
+  font-size: 3.5rem;
+
+}
+  
+h1{
+  
+  border-color: #05e16c;
+  text-align: center;
+  font-weight: bold;
+  
+
+}

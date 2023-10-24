@@ -1,0 +1,185 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background overlay */
+  }
+  
+  
+  
+    
+      .navbar-logo {
+        font-size: 5rem; /* Adjust the font size as needed */
+        line-height: 3rem; /* Adjust the line height as needed */
+        color: rgb(188, 7, 233) ;
+      
+      }
+      .bn31 {
+        background-image: linear-gradient(to right, #14036a 0%, #7601ca 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color:#0aea15;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:30rem;
+        left: 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 4px 2px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-right-radius:10px ;
+       border-bottom-right-radius: 10px;
+      }
+      .bn32 {
+        background-image: linear-gradient(to right, #44036a 0%, #2f0889 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color: #05e16c;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:27rem;
+        right : 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 1px 9px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+      }
+      
+      .bn31:hover {
+        color: #fff;
+      }
+      .bn32:hover {
+        color: #fff;
+      }
+      
+      .bn31 .bn31span {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 50px;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+      
+      .bnt:hover .bnt {
+        background: transparent;
+      }
+      
+    
+       .bn32span {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 40px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+      
+      .bn32:hover .bn32span {
+        background: transparent;
+      }
+      
+    
+      .bn33 {
+        background-image: linear-gradient(to right, #44036a 0%, #2f0889 100%);
+        border-radius: 40px;
+        box-sizing: border-box;
+        color: #59e40e;
+        display: block;
+        font-size: 1.4em;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        width: 7em;
+        z-index: 2;
+        position: absolute;
+        right: 10rem;
+        top:35rem;
+        right : 62rem;
+        height: 10rem;
+       font-size: 34px;
+       margin: 20px 9px;
+       transition-duration: 0.4s;
+       cursor: pointer;
+       position: absolute;
+       height: 100px;
+       width: 500px; 
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+      }
+      .bn33:hover {
+        color: #fff;
+      }
+      .bn33span {
+        align-items: center;
+        background: #0e0e10 ;
+        border-radius: 40px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+      }
+   
+      .bn33:hover .bn33span {
+        background: transparent;
+      }
+    
+   
+    
